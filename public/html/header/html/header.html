@@ -1,0 +1,5 @@
+<div ng-controller="HeaderCtrl" style="width: 60%; padding: 0 20%; display: table; background-color: #EFEFEF;">
+    <div ng-repeat="item in navList" style="display: table-cell; text-align: center; padding: 6px 8px;">
+        <a href="#/{{ item }}" ng-bind="item"></a>
+    </div>
+</div>
